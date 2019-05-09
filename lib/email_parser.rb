@@ -18,19 +18,3 @@ class EmailParser
   
   
 end
-class EmailParser
-  attr_accessor :emails
-  
-  def initialize(emails)
-    # keep it simple
-    @emails = emails
-  end
-  
-
-  
-  def parse
-    emails.split(",").uniq
-  end
-  
-  
-end
