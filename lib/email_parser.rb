@@ -18,7 +18,9 @@ class EmailParser
   end
   
   def self.create
-    
+    eparse = self.new
+    eparse.save
+    eparse
   end
   
   attr_accessor
