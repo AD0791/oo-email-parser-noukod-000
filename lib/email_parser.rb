@@ -11,24 +11,7 @@ class EmailParser
     @emails = emails
   end
   
-  # Remember my self
-  @@all = []
-  # class reader
-  def self.all
-    @@all  
-  end
-  
-  # save and create
-  
-  def self.save
-    @@all << self
-  end
-  
-  def self.create
-    eparse = self.new
-    eparse.save
-    eparse
-  end
+
   
   def parse(emails)
     
