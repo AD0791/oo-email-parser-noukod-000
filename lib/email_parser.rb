@@ -4,6 +4,12 @@
 # or whitespace (' ').
 
 class EmailParser
+  attr_accessor
+  
+  def initialize
+    
+  end
+  
   # Remember my self
   @@all = []
   # class reader
@@ -23,11 +29,7 @@ class EmailParser
     eparse
   end
   
-  attr_accessor
-  
-  def initialize
-    
-  end
+  `
   
   
   
