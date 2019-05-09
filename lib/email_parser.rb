@@ -11,6 +11,16 @@ class EmailParser
     @@all  
   end
   
+  # save and create
+  
+  def self.save
+    @@all << self
+  end
+  
+  def self.create
+    
+  end
+  
   attr_accessor
   
   def initialize
