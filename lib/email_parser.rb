@@ -29,7 +29,9 @@ class EmailParser
     eparse
   end
   
-  `
+  def parse
+    
+  end
   
   
   
