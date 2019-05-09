@@ -30,7 +30,7 @@ class EmailParser
     eparse
   end
   
-  def parse
+  def parse(emails)
     
   end
   
