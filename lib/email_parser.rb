@@ -7,7 +7,7 @@ class EmailParser
   attr_accessor
   
   def initialize
-    
+    # keep it simple
   end
   
   # Remember my self
